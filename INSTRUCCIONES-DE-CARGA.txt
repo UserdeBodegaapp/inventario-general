@@ -1,0 +1,6 @@
+1. En GitHub, elimina index.html, estilos.css, aplicacion.js, asignaciones.json y README.md antiguos.
+2. Conserva actualizar-datos.ps1 o reemplázalo por el nuevo.
+3. Sube todos los archivos y la carpeta assets de este paquete.
+4. Sube aparte el video con nombre exacto: Inventario anual bodega.mp4
+5. NO subas el Excel real.
+6. Espera 1-3 minutos y abre la página con Ctrl+F5.
