@@ -5,8 +5,9 @@
     "mesa": "1",
     "listado": "7",
     "ubicacion": "AI03",
-    "colacion": "10:30 - 10:45",
-    "almuerzo": "13:00 - 13:45"
+    "breakManana": "10:30 - 10:45",
+    "almuerzo": "13:00 - 13:45",
+    "breakTarde": "16:00 - 16:15"
   },
   {
     "id": "45f8bfe82302e5d045e863a84c3a102bb5e160bef1a3436de0c16c622c93ac8c",
@@ -14,25 +15,8 @@
     "mesa": "1",
     "listado": "8",
     "ubicacion": "AI04",
-    "colacion": "10:30 - 10:45",
-    "almuerzo": "13:00 - 13:45"
-  },
-  {
-    "id": "97c69575931530af75cd79cd369d3cd46a265f5ea0811cb72a6bd77d1d9436a0",
-    "pareja": "1A",
-    "mesa": "3",
-    "listado": "47",
-    "ubicacion": "RA11",
-    "colacion": "10:45 - 11:00",
-    "almuerzo": "13:45 - 14:30"
-  },
-  {
-    "id": "b82202dbbf7e937811efee1c6b64c545425bf6de184cd9275cba76474996ab1c",
-    "pareja": "12A",
-    "mesa": "1",
-    "listado": "13",
-    "ubicacion": "AS01",
-    "colacion": "11:00 - 11:15",
-    "almuerzo": "14:30 - 15:15"
+    "breakManana": "10:30 - 10:45",
+    "almuerzo": "13:00 - 13:45",
+    "breakTarde": "16:00 - 16:15"
   }
 ]

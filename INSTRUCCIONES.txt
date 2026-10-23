@@ -1,3 +1,1 @@
-No subir CONSULTA INVENTARIO.xlsx a GitHub. Conservar inventario-anual-bodega.mp4 en la raíz.
-
-VERSIÓN V6: reemplaza index.html y estilos.css para aplicar el nuevo diseño.
+Conservar inventario-anual-bodega.mp4. No subir CONSULTA INVENTARIO.xlsx. Reemplazar los demás archivos en GitHub.
