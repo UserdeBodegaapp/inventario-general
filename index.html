@@ -1,11 +1,102 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#005eb8"><meta name="description" content="Consulta de asignación para inventario general"><title>Inventario General | Consulta de asignación</title><link rel="stylesheet" href="estilos.css"><script src="aplicacion.js" defer></script></head>
-<body><div class="circuit-bg" aria-hidden="true"></div>
-<header class="topbar"><img src="assets/eaton-logo.svg" class="logo" alt="Eaton"><div class="system"><i></i><span>SISTEMA DISPONIBLE</span></div></header>
-<main class="container">
-<section class="hero"><div class="kicker">INVENTARIO GENERAL · OPERACIÓN 4.0</div><h1>Consulta tu <span>asignación</span></h1><p>Ingresa tu E-Number para conocer los datos de tu jornada de inventario.</p></section>
-<section class="lookup-card"><div class="card-ribbon"><span>CONSULTA DE PARTICIPANTE</span><code>INV / 2026</code></div><form id="formConsulta" novalidate><label for="eNumber">E-NUMBER</label><div class="field"><span>ID</span><input id="eNumber" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="30" placeholder="Ej. E123456"><button id="limpiar" type="button" hidden aria-label="Limpiar">×</button></div><small>Puedes escribirlo con o sin espacios y guiones.</small><button id="btnConsultar" class="search" type="submit"><b>CONSULTAR ASIGNACIÓN</b><span>→</span></button><p id="mensaje" class="message" role="status" aria-live="polite"></p></form>
-<section id="resultado" class="result" hidden><div class="result-title"><div>✓</div><span><small>ASIGNACIÓN ENCONTRADA</small><h2>Información de tu jornada</h2></span></div><div class="data-grid"><article class="pair"><small>N.º PAREJA</small><strong id="resPareja">-</strong></article><article><small>MESA</small><strong id="resMesa">-</strong></article><article><small>LISTADO</small><strong id="resListado">-</strong></article><article><small>UBICACIÓN A CONTAR</small><strong id="resUbicacion">-</strong></article><article class="schedule"><small>HORARIO DE COLACIÓN</small><strong id="resColacion">-</strong></article><article class="schedule"><small>HORARIO DE ALMUERZO</small><strong id="resAlmuerzo">-</strong></article></div><div class="direction"><b>→</b><p><strong>Siguiente paso</strong>Dirígete a la mesa indicada para retirar tu listado e identificación.</p></div><button id="nuevaConsulta" class="again" type="button">REALIZAR OTRA CONSULTA</button></section></section>
-<section class="steps"><article><b>01</b><span><strong>IDENTIFÍCATE</strong>Ingresa tu E-Number.</span></article><article><b>02</b><span><strong>REVISA</strong>Confirma pareja, mesa y horarios.</span></article><article><b>03</b><span><strong>DIRÍGETE</strong>Retira listado e identificación.</span></article></section>
-<section class="video-section"><div class="video-head"><div class="kicker">VIDEO INSTRUCTIVO</div><h2>¿TIENES DUDAS?</h2><p>Si tienes dudas de cómo realizar la toma del inventario general, revisa el siguiente video:</p></div><div class="video-shell"><video controls preload="metadata" playsinline><source src="inventario-anual-bodega.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video></div><p class="video-help">Activa el sonido para escuchar las instrucciones. Puedes ampliar el video a pantalla completa.</p></section>
-</main><footer><span>INVENTARIO GENERAL</span><span>Consulta segura · Sin nombres visibles</span></footer></body></html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#005EB8">
+  <meta name="description" content="Consulta de asignación para inventario general">
+  <title>Inventario General | Consulta de asignación</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="aplicacion.js" defer></script>
+</head>
+<body>
+  <div class="tech-background" aria-hidden="true">
+    <span class="orb orb-a"></span><span class="orb orb-b"></span>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="assets/eaton-logo.svg" class="brand-logo" alt="Eaton">
+      <div class="header-divider"></div>
+      <div class="event-name"><strong>INVENTARIO GENERAL</strong><span>Operación 4.0</span></div>
+      <div class="live-status"><i></i><span>Sistema disponible</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro wrap">
+      <div class="intro-copy">
+        <div class="eyebrow"><span>●</span> CONSULTA DE PARTICIPANTE</div>
+        <h1>Consulta tu<br><em>asignación</em></h1>
+        <p>Ingresa tu E-Number para conocer tu pareja, mesa, listado, ubicación y horarios asignados.</p>
+        <div class="trust-row"><span>✓ Consulta rápida</span><span>✓ Acceso desde celular</span><span>✓ Sin nombres visibles</span></div>
+      </div>
+
+      <section class="search-card" aria-label="Consulta de asignación">
+        <div class="search-card-head">
+          <div><small>PASO 1 DE 1</small><strong>IDENTIFÍCATE</strong></div>
+          <span class="head-icon" aria-hidden="true">⌁</span>
+        </div>
+        <form id="formConsulta" novalidate>
+          <label for="eNumber">INGRESA TU E-NUMBER</label>
+          <div class="field">
+            <span class="id-badge">ID</span>
+            <input id="eNumber" name="eNumber" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="30" placeholder="Ej. E123456" aria-describedby="ayuda mensaje">
+            <button id="limpiar" type="button" hidden aria-label="Limpiar E-Number">×</button>
+          </div>
+          <p id="ayuda" class="input-help">Puedes escribirlo con o sin espacios y guiones.</p>
+          <button id="btnConsultar" class="search-button" type="submit"><b>CONSULTAR ASIGNACIÓN</b><span aria-hidden="true">→</span></button>
+          <p id="mensaje" class="message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </section>
+
+    <section id="resultado" class="result-section" hidden>
+      <div class="wrap">
+        <div class="result-heading">
+          <div class="success-icon">✓</div>
+          <div><small>ASIGNACIÓN ENCONTRADA</small><h2>Información de tu jornada</h2></div>
+        </div>
+        <div class="result-grid">
+          <article class="result-card pair"><span>N.º PAREJA</span><strong id="resPareja">-</strong></article>
+          <article class="result-card"><span>MESA</span><strong id="resMesa">-</strong></article>
+          <article class="result-card"><span>LISTADO</span><strong id="resListado">-</strong></article>
+          <article class="result-card location"><span>UBICACIÓN A CONTAR</span><strong id="resUbicacion">-</strong></article>
+          <article class="result-card time"><div class="time-icon">☕</div><div><span>HORARIO DE COLACIÓN</span><strong id="resColacion">-</strong></div></article>
+          <article class="result-card time"><div class="time-icon">◷</div><div><span>HORARIO DE ALMUERZO</span><strong id="resAlmuerzo">-</strong></div></article>
+        </div>
+        <div class="next-step"><span>→</span><p><strong>Siguiente paso</strong>Dirígete a la mesa indicada para retirar tu listado e identificación.</p></div>
+        <button id="nuevaConsulta" class="new-search" type="button">REALIZAR OTRA CONSULTA</button>
+      </div>
+    </section>
+
+    <section class="process wrap" aria-label="Proceso de inventario">
+      <article><b>01</b><div><strong>IDENTIFÍCATE</strong><p>Ingresa tu E-Number.</p></div></article>
+      <article><b>02</b><div><strong>REVISA</strong><p>Confirma pareja, mesa y horarios.</p></div></article>
+      <article><b>03</b><div><strong>DIRÍGETE</strong><p>Retira tu listado e identificación.</p></div></article>
+    </section>
+
+    <section class="video-section">
+      <div class="wrap video-layout">
+        <div class="video-copy">
+          <div class="eyebrow"><span>●</span> APOYO AUDIOVISUAL</div>
+          <h2>¿Tienes dudas?</h2>
+          <p>Si tienes dudas de cómo realizar la toma del inventario general, revisa el siguiente video.</p>
+          <div class="video-tip"><b>Consejo</b><span>Activa el sonido y gira el teléfono para verlo en pantalla completa.</span></div>
+        </div>
+        <div class="video-card">
+          <div class="video-bar"><span>VIDEO INSTRUCTIVO</span><i>MP4</i></div>
+          <div class="video-stage">
+            <video controls preload="metadata" playsinline>
+              <source src="inventario-anual-bodega.mp4" type="video/mp4">
+              Tu navegador no puede reproducir este video.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap"><span>INVENTARIO GENERAL</span><span>Consulta segura · Sin nombres visibles</span></div></footer>
+</body>
+</html>
