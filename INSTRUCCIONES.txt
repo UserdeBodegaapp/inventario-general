@@ -1,0 +1,41 @@
+PAQUETE FINAL - INVENTARIO GENERAL
+
+1) ARCHIVOS QUE DEBES REEMPLAZAR EN GITHUB
+- index.html
+- estilos.css
+- aplicacion.js
+- asignaciones.json
+- actualizar-datos.ps1
+- README.md
+- carpeta assets
+
+2) ARCHIVO QUE DEBES CONSERVAR EN GITHUB
+- inventario-anual-bodega.mp4
+
+3) ARCHIVOS QUE NO DEBES SUBIR A GITHUB
+- CONSULTA INVENTARIO.xlsx
+- cualquier Excel con E-Numbers reales
+
+4) PARA AGREGAR UNA PERSONA
+- Agrega una fila en CONSULTA INVENTARIO.xlsx.
+- Completa todos los campos.
+- Escribe SI en ACTIVO.
+- Guarda y cierra Excel.
+- Ejecuta actualizar-datos.ps1.
+- Reemplaza asignaciones.json en GitHub.
+
+5) PARA MODIFICAR UNA PERSONA
+- Busca su E-Number en el Excel.
+- Cambia pareja, mesa, listado, ubicación o horarios.
+- Guarda y cierra Excel.
+- Ejecuta actualizar-datos.ps1.
+- Reemplaza asignaciones.json en GitHub.
+
+6) PARA SACAR TEMPORALMENTE UNA PERSONA
+- Cambia ACTIVO de SI a NO.
+- Guarda y cierra Excel.
+- Ejecuta actualizar-datos.ps1.
+- Reemplaza asignaciones.json en GitHub.
+
+7) PARA REACTIVAR
+- Cambia ACTIVO de NO a SI y repite el proceso.
