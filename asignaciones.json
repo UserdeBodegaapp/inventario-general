@@ -1,22 +1,642 @@
 [
   {
-    "id": "2a696cce35bd5a184fa5bda870e6de88354f0104abee63e7bf319305cbd97e14",
+    "id": "098d427c8be0b20e947c7a7c471cb905159990413790cf66bbceeada88d14403",
+    "pareja": "16B",
+    "mesa": "3",
+    "listado": "18",
+    "ubicacion": "AS05",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "0df6b85d8e2b9957cc9e9afc0e0108631cd952ff6f08ec8c752e6b0b5c326177",
+    "pareja": "10A",
+    "mesa": "1",
+    "listado": "27",
+    "ubicacion": "AS13",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "1b835c2acc7e95f29f6f23867ee1b14003d0f62a8143292f309c83510165cfe8",
+    "pareja": "2B",
+    "mesa": "2",
+    "listado": "12",
+    "ubicacion": "AM01",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "1bb6cfe4432c25f84813661307d6ca14b55d5c43b43434575b637397eda17757",
     "pareja": "7A",
     "mesa": "1",
     "listado": "7",
     "ubicacion": "AI03",
-    "breakManana": "10:30 - 10:45",
-    "almuerzo": "13:00 - 13:45",
-    "breakTarde": "16:00 - 16:15"
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
   },
   {
-    "id": "45f8bfe82302e5d045e863a84c3a102bb5e160bef1a3436de0c16c622c93ac8c",
+    "id": "1bbfb6278515707ff472722188d59346ec9d1ac858e3b960f251fe72fe438e76",
+    "pareja": "14A",
+    "mesa": "2",
+    "listado": "16",
+    "ubicacion": "AS03",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "1f837d71b8f28e990d0ff8ae7e9ef3341c4d691d5dd764eb6b3137f01d4cfabe",
+    "pareja": "9B",
+    "mesa": "1",
+    "listado": "25",
+    "ubicacion": "AS11",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "20785f01856df3dc0d37a6307e852f286cd04a91517a137222f27e8a75837132",
+    "pareja": "4B",
+    "mesa": "2",
+    "listado": "43",
+    "ubicacion": "RA07",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "211c30ff685fed04284c9197fb99c4406fab6191da24703a37d62e834bf8cc92",
+    "pareja": "16B",
+    "mesa": "3",
+    "listado": "18",
+    "ubicacion": "AS05",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "22b2ca786b619ad8427d00a58f2c3e43c454759511f637e140dc83e672aa34d4",
+    "pareja": "11A",
+    "mesa": "3",
+    "listado": "5",
+    "ubicacion": "AI01",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "22c752dae8f49f6be3bab66d68d5ae9bd432f114820fdd20d2a647344173ab6a",
+    "pareja": "5A",
+    "mesa": "1",
+    "listado": "9",
+    "ubicacion": "AI05",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "27a8b209c2c48e84d0dc0850fa5a1fc7f7fc09d45e463b79ace27530000c64a5",
+    "pareja": "12B",
+    "mesa": "1",
+    "listado": "13",
+    "ubicacion": "AS01",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "286f319e96d4fc586d53894da21fdf79eff295ae1d1c73150a5b5bb8b4be4ccb",
+    "pareja": "8B",
+    "mesa": "2",
+    "listado": "29",
+    "ubicacion": "AS15",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "288e7e777d559675abb64ed4f84dc18d45d1f9009de7ae2d7113fc5c71b6a265",
+    "pareja": "15B",
+    "mesa": "3",
+    "listado": "34",
+    "ubicacion": "RA03",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "39f89a3a23c9813884186c0a0bb4ed15f9719e4ab7dc38686faf2cbd58cc3954",
+    "pareja": "10B",
+    "mesa": "1",
+    "listado": "27",
+    "ubicacion": "AS13",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "3f8d9b123152a0f6c16118143243cadcd9f28936a862ad8577fc2b9403e60105",
+    "pareja": "9A",
+    "mesa": "1",
+    "listado": "25",
+    "ubicacion": "AS11",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "47fe230e6e302d1f4cea2f167e525a570503a20302a068585076d61e61cd5306",
+    "pareja": "13B",
+    "mesa": "3",
+    "listado": "44",
+    "ubicacion": "RA08",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "483a01318c77c3735ad595b67cba396ba2a151d786f6c5a373916754a14ffb85",
+    "pareja": "12B",
+    "mesa": "1",
+    "listado": "13",
+    "ubicacion": "AS01",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "4c1b73ef08b4c1e5ca22ea0ec014d7b7f749637f2f9f24fb1cd71052022ab601",
+    "pareja": "12A",
+    "mesa": "1",
+    "listado": "13",
+    "ubicacion": "AS01",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "4ec6da0d218ce2e630694b41da2a7a743fcb5b9bbaa53cbb6a0c2806221baa41",
+    "pareja": "2A",
+    "mesa": "2",
+    "listado": "12",
+    "ubicacion": "AM01",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "50838ce526ca411be7df205a48ef7df5eae1e4bf883f0f7424859bd3fd435120",
+    "pareja": "5B",
+    "mesa": "1",
+    "listado": "9",
+    "ubicacion": "AI05",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "59968debe991dcb3e76169167563c41c0500cb7cc3e0bb316f8fb2192e192ead",
+    "pareja": "14A",
+    "mesa": "2",
+    "listado": "16",
+    "ubicacion": "AS03",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "602f98f3fd28f78ede8ab805d23d10711e0bd7a63874df30ff1efc5c054b4460",
     "pareja": "7B",
     "mesa": "1",
-    "listado": "8",
-    "ubicacion": "AI04",
-    "breakManana": "10:30 - 10:45",
-    "almuerzo": "13:00 - 13:45",
-    "breakTarde": "16:00 - 16:15"
+    "listado": "7",
+    "ubicacion": "AI03",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "6387a7076b5416fedd8d9e83026a5edcdd8b3a42b6f5f2402ab5c3b2d4965d21",
+    "pareja": "14B",
+    "mesa": "2",
+    "listado": "16",
+    "ubicacion": "AS03",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "6ce2a8c6d2238c59d7a79021b292d2c489e8941627229e8b2335316e737c08e0",
+    "pareja": "7B",
+    "mesa": "1",
+    "listado": "7",
+    "ubicacion": "AI03",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "7090f779d9e230b07a54974df3e14a54241018e3d9c8b694925fab6ee8ae08cb",
+    "pareja": "3A",
+    "mesa": "2",
+    "listado": "20",
+    "ubicacion": "AS07",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "70f3be36578d118c9a30d9595423a1c11d75b1d8fd9dbc8fe8d09a4828d29bde",
+    "pareja": "4A",
+    "mesa": "2",
+    "listado": "43",
+    "ubicacion": "RA07",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "739501ca08e6862a7fe880c77893bc54d7fab86b080e8bee5acf629ff540f96c",
+    "pareja": "8A",
+    "mesa": "2",
+    "listado": "29",
+    "ubicacion": "AS15",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "78f6584a4728ebb40cd98dafeb1595d75133dc8b843dfb86db6a86f9820c7290",
+    "pareja": "6A",
+    "mesa": "3",
+    "listado": "24",
+    "ubicacion": "AS10",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "7f854b67c1e5ff70cb51451b2822dab7cbea5120a52400c9af799837f7210b51",
+    "pareja": "11B",
+    "mesa": "3",
+    "listado": "5",
+    "ubicacion": "AI01",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "80730cae172631ce391d987de48f90ec4bb30b552ebec7688b2608c5157367bb",
+    "pareja": "4A",
+    "mesa": "2",
+    "listado": "43",
+    "ubicacion": "RA07",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "81594fa6723d584a36f28827a1eade03ab13a759f0349272397bd5ba6be9826e",
+    "pareja": "1A",
+    "mesa": "1",
+    "listado": "47",
+    "ubicacion": "RA11",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "8427291b75ebc652d8c2b6fe922d0c5730a94daedccfaf3a4154135b53a0257e",
+    "pareja": "13A",
+    "mesa": "3",
+    "listado": "44",
+    "ubicacion": "RA08",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "850feb32b35fc8babb723a4f5f4bc97ad484dfd4e68ab4204d727a067b1d2795",
+    "pareja": "15A",
+    "mesa": "3",
+    "listado": "34",
+    "ubicacion": "RA03",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "86e3e9267d3b37c8dfb5255dde81828264aad07816e0afafb6e5cf6423da3a44",
+    "pareja": "6A",
+    "mesa": "3",
+    "listado": "24",
+    "ubicacion": "AS10",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "8afb3de1f3463142111d7f14e18c957f7a56c9f17b063dc3dee8f9adfc81126e",
+    "pareja": "2B",
+    "mesa": "2",
+    "listado": "12",
+    "ubicacion": "AM01",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "8b98bbc68fa0093d82bdcf6043ddda4e80dd32a89980367680b5ab0b2e8c518e",
+    "pareja": "4B",
+    "mesa": "2",
+    "listado": "43",
+    "ubicacion": "RA07",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "8d991519059a736d09ec9450976964a2c3be02a981900eb73c8eafab9435ff5f",
+    "pareja": "15B",
+    "mesa": "3",
+    "listado": "34",
+    "ubicacion": "RA03",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "8dbc973683f13aa855153b3a58e72266032e2eef42461f278992364352825633",
+    "pareja": "10A",
+    "mesa": "1",
+    "listado": "27",
+    "ubicacion": "AS13",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "94914993466c30cfa1628d323417da2270364da72a79c120979fb5b88c2d1667",
+    "pareja": "10B",
+    "mesa": "1",
+    "listado": "27",
+    "ubicacion": "AS13",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "97334412d565546d6ec4bb97d32d0f088eb15f056817d7ffccd377d5b70d5ff5",
+    "pareja": "9A",
+    "mesa": "1",
+    "listado": "25",
+    "ubicacion": "AS11",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "987841c79367a3999da68dbf2d3a430c08127c36736c62386761e8091b2ae449",
+    "pareja": "1B",
+    "mesa": "1",
+    "listado": "47",
+    "ubicacion": "RA11",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "a440b7b7526ef2f9f47ae3e8d1f67f6cfe653e625439be578896601ddfa84421",
+    "pareja": "14B",
+    "mesa": "2",
+    "listado": "16",
+    "ubicacion": "AS03",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "a9a36f5db5df09549edd6b7dbeab88c21b6253e96e8dbde1e4e4fff6eba6943b",
+    "pareja": "5A",
+    "mesa": "1",
+    "listado": "9",
+    "ubicacion": "AI05",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "ad438a80b6697714d8649c97ad03b4c69b6c618e1bb411a76824e4b98b870922",
+    "pareja": "3B",
+    "mesa": "2",
+    "listado": "20",
+    "ubicacion": "AS07",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "b1a825391854d280a8baec9a9ba8eec0f3e76359a689b2b284ca8131ae916657",
+    "pareja": "13B",
+    "mesa": "3",
+    "listado": "44",
+    "ubicacion": "RA08",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "b43b99255c03e3b97bb00414e7c841a83f47847c03d0541dd7625ae5c630690d",
+    "pareja": "2A",
+    "mesa": "2",
+    "listado": "12",
+    "ubicacion": "AM01",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "b5487262142900b5009f74de4df260f0c0b27a6098b3fdfb3195aafa371b71db",
+    "pareja": "6B",
+    "mesa": "3",
+    "listado": "24",
+    "ubicacion": "AS10",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "b66536bd40c3930b33b3357caf0abbc76e65c49e934676905e9362a8a343c7bc",
+    "pareja": "5B",
+    "mesa": "1",
+    "listado": "9",
+    "ubicacion": "AI05",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "b6c8c484421a649e93108823ec648da3b71b2c2450d30a06e660ec19e70e9d2b",
+    "pareja": "12A",
+    "mesa": "1",
+    "listado": "13",
+    "ubicacion": "AS01",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "ba1817e56349f10d34ec57bf2f98fd51a65d6471891b78b526dc4b2e566eda39",
+    "pareja": "11A",
+    "mesa": "3",
+    "listado": "5",
+    "ubicacion": "AI01",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "c805df996bcadd2844e4e4bda61a79adad1d024ed0a3000e5bc27ca636461cbe",
+    "pareja": "8B",
+    "mesa": "2",
+    "listado": "29",
+    "ubicacion": "AS15",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "d8c7963cf0f08f25ca22e2c40f9bc3fe5e1d971476edfd9c15f4775627fe1160",
+    "pareja": "7A",
+    "mesa": "1",
+    "listado": "7",
+    "ubicacion": "AI03",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "dc4fb9624edbbedab9900d7449ea8f64fdc374f2d100727d823b4cd9bfa678f5",
+    "pareja": "16A",
+    "mesa": "3",
+    "listado": "18",
+    "ubicacion": "AS05",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "dde8ebaf7f532f2b966aa108b297733010a42f192a8db7c0bddd424591423555",
+    "pareja": "16A",
+    "mesa": "3",
+    "listado": "18",
+    "ubicacion": "AS05",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "e35a5229ff777b0caf9c6f3c6869d5960f419bb65613583a06ce1a40c1d3bf83",
+    "pareja": "15A",
+    "mesa": "3",
+    "listado": "34",
+    "ubicacion": "RA03",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "e4c797b9b306c02a96783e9235c5cc9822001d4835b1a240df12f4cb6d0af93f",
+    "pareja": "11B",
+    "mesa": "3",
+    "listado": "5",
+    "ubicacion": "AI01",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "e9a924dc40dce93237e4c2831c0e9df664566bdeaa2b66c79a0d7631c63fbce9",
+    "pareja": "6B",
+    "mesa": "3",
+    "listado": "24",
+    "ubicacion": "AS10",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "ea85b09b006a9c7752bf45d7d67dd3f3bd94b32269cde979503acddabf791b83",
+    "pareja": "1A",
+    "mesa": "1",
+    "listado": "47",
+    "ubicacion": "RA11",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "effc401b1c72b7e2b03fbe38794de308a00164c1f4505230eceb574975e63c4d",
+    "pareja": "3A",
+    "mesa": "2",
+    "listado": "20",
+    "ubicacion": "AS07",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "f3151327e0ea26be513786ddd777f8aa2d10fb0b231518cf2dc1b7503c20e8aa",
+    "pareja": "13A",
+    "mesa": "3",
+    "listado": "44",
+    "ubicacion": "RA08",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "f5f57b70319595725216ec53a06ace96d149e3571785a4d3a8767e81388ad708",
+    "pareja": "9B",
+    "mesa": "1",
+    "listado": "25",
+    "ubicacion": "AS11",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "f95558f4959be457146e83686236d5b4b26f8369339540e82a5f8e1e4200ed2b",
+    "pareja": "8A",
+    "mesa": "2",
+    "listado": "29",
+    "ubicacion": "AS15",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
+    "id": "fb5ae2df562afd5d28eea27a19a34902580c3109f7d4f85808250376b6aed531",
+    "pareja": "3B",
+    "mesa": "2",
+    "listado": "20",
+    "ubicacion": "AS07",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
+  },
+  {
+    "id": "fdd3a441a8c0f51c421c49936b9fadeccf41f19ea3673f6b0dac70b489c65e99",
+    "pareja": "1B",
+    "mesa": "1",
+    "listado": "47",
+    "ubicacion": "RA11",
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "12:30:00 A 13:00",
+    "breakTarde": "15:00 A 15:00"
   }
 ]
