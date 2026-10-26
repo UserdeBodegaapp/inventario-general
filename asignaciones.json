@@ -221,7 +221,7 @@
   },
   {
     "id": "602f98f3fd28f78ede8ab805d23d10711e0bd7a63874df30ff1efc5c054b4460",
-    "pareja": "7B",
+    "pareja": "1B",
     "mesa": "1",
     "listado": "7",
     "ubicacion": "AI03",
@@ -521,13 +521,13 @@
   },
   {
     "id": "dc4fb9624edbbedab9900d7449ea8f64fdc374f2d100727d823b4cd9bfa678f5",
-    "pareja": "16A",
+    "pareja": "7B",
     "mesa": "3",
     "listado": "18",
     "ubicacion": "AS05",
-    "breakManana": "10:15 A 10:30",
-    "almuerzo": "13:30:00 A 14:00",
-    "breakTarde": "15:15 A 15:30"
+    "breakManana": "10:00 A 10:15",
+    "almuerzo": "13:00:00 A 13:30:00",
+    "breakTarde": "15:00 A 15:15"
   },
   {
     "id": "dde8ebaf7f532f2b966aa108b297733010a42f192a8db7c0bddd424591423555",
