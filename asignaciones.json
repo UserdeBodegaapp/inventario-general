@@ -260,6 +260,16 @@
     "breakTarde": "15:15 A 15:30"
   },
   {
+    "id": "729e8f147c98f443924875a8463b4f9dcd811bf8905e0c6bf6af4585f1a6fdfa",
+    "pareja": "11B",
+    "mesa": "3",
+    "listado": "5",
+    "ubicacion": "AI01",
+    "breakManana": "10:15 A 10:30",
+    "almuerzo": "13:30:00 A 14:00",
+    "breakTarde": "15:15 A 15:30"
+  },
+  {
     "id": "739501ca08e6862a7fe880c77893bc54d7fab86b080e8bee5acf629ff540f96c",
     "pareja": "8A",
     "mesa": "2",
@@ -275,16 +285,6 @@
     "mesa": "3",
     "listado": "24",
     "ubicacion": "AS10",
-    "breakManana": "10:15 A 10:30",
-    "almuerzo": "13:30:00 A 14:00",
-    "breakTarde": "15:15 A 15:30"
-  },
-  {
-    "id": "7f854b67c1e5ff70cb51451b2822dab7cbea5120a52400c9af799837f7210b51",
-    "pareja": "11B",
-    "mesa": "3",
-    "listado": "5",
-    "ubicacion": "AI01",
     "breakManana": "10:15 A 10:30",
     "almuerzo": "13:30:00 A 14:00",
     "breakTarde": "15:15 A 15:30"
